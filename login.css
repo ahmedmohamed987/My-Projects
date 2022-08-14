@@ -1,0 +1,135 @@
+.container{
+    text-align: center;
+    border-radius: 10px;
+    background-color: #333;
+    
+   
+}
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+
+.page{
+    width: 400px;
+    height:400px;    
+    background: white;
+    border-radius: 20px;
+    padding-bottom: 15px;
+    background-color: #333
+}
+.title{
+    
+    padding: 30px 0;
+    text-transform: capitalize;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style:normal;
+    color:#BBBBBB ;
+}
+form{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);   
+}
+form input{
+    margin-bottom: 10px;
+    border: 1px solid #9b59b6 ;
+    border-radius: 3px;
+    box-shadow: 0 0 5px #71b7e6;
+}
+input[type="text"],input[type="password"]
+{
+    padding-left: 10px;
+    position: relative;
+    height: 35px;
+   
+}
+form button{
+    background:#716969 ;
+    padding: 5px 0;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: capitalize;
+    border: none;
+    color: white;
+    cursor:pointer;
+    border-radius: 5px;
+    transition: 0.5s;
+    
+}
+form button:hover{
+    background: #FBFBFB;
+    padding: 5px 0;
+    margin-top: 15px;
+    font-weight: bold;
+    text-transform: capitalize;
+    border: none;
+    color: black;
+    cursor:pointer;
+    border-radius: 5px;
+}
+form .option{
+    color: #FBFBFB;
+    margin: 10px 0;
+    font-weight: bold;
+}
+.flink{
+    margin-top: 15px;
+    width: 100%;
+}
+.flink a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #FBFBFB;
+}
+
+.forget_pass{
+    margin: 15px;
+}
+.forget_pass a{
+    text-decoration: none;
+    color: #FBFBFB;
+    font-size: 18px;  
+   transition: 0.5s;
+}
+.forget_pass a:hover{
+    text-decoration: none;
+    color: #5762D5;
+    font-size: 18px; 
+}
+.signup{
+    border: 1px solid #b6b6b6;
+    border-radius: 2px;
+    width: 90%;
+    left: 50%;
+    margin-top: 30px;
+    position: relative;
+    transform: translateX(-50%);
+   
+}
+.signup p{
+    color:#BBBBBB;
+}
+.signup a{
+    text-decoration: none;
+    margin-left: 5px;
+    color: #FBFBFB;
+    transition: 0.5s;
+}
+.signup a:hover{
+    text-decoration: none;
+    margin-left: 5px;
+    color: #5762D5;
+  
+}
